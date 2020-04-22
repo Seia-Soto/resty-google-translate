@@ -129,7 +129,7 @@ const tts = async opts => {
     q: encodeURIComponent(opts.text)
   }
 
-  return 'https://translate.google.com/translate_tts?' + querystring.parse(data)
+  return 'https://translate.google.com/translate_tts?' + querystring.stringify(data)
 }
 
 module.exports.languages = languages
