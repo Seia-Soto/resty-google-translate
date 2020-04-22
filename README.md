@@ -1,6 +1,6 @@
 # resty-google-translate
 
-Unofficial `google-translate-api` via web client.
+Use Google Translate without any credentials.
 
 - [Original forked repository](https://github.com/Seia-Soto/google-translate-query)
 
@@ -24,6 +24,14 @@ yarn add resty-google-translate
 ```
 
 ## Documentation
+
+All API returns promise and if the API got an error while executing, you can see there is `error` object.
+
+```js
+{
+  error: <Error>
+}
+```
 
 ### languages
 

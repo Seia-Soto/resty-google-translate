@@ -1,5 +1,6 @@
 {
   "name": "resty-google-translate",
+  "description": "Use Google Translate without any credentials.",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Seia-Soto <seia@outlook.kr>",
