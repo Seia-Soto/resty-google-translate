@@ -72,7 +72,7 @@ tts({
   text: '안녕하세요',
   target: 'ko',
   hint: 'en', // NOTE: Hint language
-  ttsspeed: 1
+  speed: 1
 })
 
 'https://translate.google.com/translate_tts?ie=UTF-8&q=%EC%95%88%EB%85%95%ED%95%98%EC%84%B8%EC%9A%94&tl=ko&total=1&idx=0&textlen=2&client=gtx&ttsspeed=1&hint=en'

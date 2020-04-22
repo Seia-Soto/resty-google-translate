@@ -126,7 +126,7 @@ const tts = async opts => {
     idx: 0,
     total: 1,
     textlen: opts.text.length,
-    q: encodeURIComponent(opts.text)
+    q: opts.text
   }
 
   return 'https://translate.google.com/translate_tts?' + querystring.stringify(data)
