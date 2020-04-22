@@ -1,0 +1,16 @@
+{
+  "name": "resty-google-translate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Seia-Soto <seia@outlook.kr>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seia-soto/resty-google-translate.git"
+  },
+  "dependencies": {
+    "google-translate-token": "^1.0.0",
+    "node-fetch": "^2.6.0",
+    "querystring": "^0.2.0"
+  }
+}
