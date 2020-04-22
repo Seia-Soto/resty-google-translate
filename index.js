@@ -106,12 +106,12 @@ const tts = async opts => {
       error: 'There is no text to translate.'
     }
   }
-  if (!opts.target) {
+  if (!opts.language) {
     return {
       error: 'Target language was not provided.'
     }
   }
-  if (!languages[opts.target]) {
+  if (!languages[opts.language]) {
     return {
       error: 'Target language was not found.'
     }
